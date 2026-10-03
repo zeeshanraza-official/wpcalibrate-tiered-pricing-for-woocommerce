@@ -1,0 +1,22 @@
+# FTP Credentials & Deployment Tools
+ftp-config.json
+sync-ftp.ps1
+deploy.bat
+watch.bat
+
+# Dependencies
+/vendor/
+node_modules/
+
+# IDE & Agents
+.agents/
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
+
+# Build & Archives
+*.zip
+wpcalibrate-tiered-pricing-for-woocommerce/

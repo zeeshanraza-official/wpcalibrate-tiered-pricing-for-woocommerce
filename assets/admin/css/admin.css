@@ -1,0 +1,138 @@
+/**
+ * WPCalibrate Tiered Pricing - Admin Styles
+ */
+
+/* Admin Header & Branding */
+.wpcttp-admin-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.25rem 1.5rem;
+	background: #ffffff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+
+.wpcttp-admin-header-brand {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.wpcttp-admin-header-brand img.wpcttp-logo {
+	height: 38px;
+	width: auto;
+}
+
+.wpcttp-admin-header-brand h1 {
+	margin: 0;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #1e293b;
+	line-height: 1.2;
+}
+
+.wpcttp-admin-header-brand .wpcttp-version-badge {
+	display: inline-block;
+	font-size: 0.75rem;
+	font-weight: 600;
+	padding: 2px 8px;
+	background: #f1f5f9;
+	color: #475569;
+	border-radius: 12px;
+	margin-inline-start: 0.5rem;
+}
+
+/* Nav Tabs */
+.wpcttp-nav-tab-wrapper {
+	margin-bottom: 1.25rem;
+	border-bottom: 1px solid #cbd5e1;
+}
+
+/* Tiers Editor Table in Product Admin and Settings */
+.wpcttp-admin-tiers-table {
+	background: #ffffff;
+	border: 1px solid #cbd5e1;
+	border-radius: 4px;
+	margin-bottom: 1rem;
+}
+
+.wpcttp-admin-tiers-table th {
+	background: #f8fafc;
+	color: #334155;
+	font-weight: 600;
+	padding: 8px 10px;
+}
+
+.wpcttp-admin-tiers-table td {
+	padding: 8px 10px;
+	vertical-align: middle;
+}
+
+.wpcttp-admin-tiers-table input[type="number"],
+.wpcttp-admin-tiers-table select {
+	width: 100%;
+	max-width: 140px;
+}
+
+.wpcttp-remove-tier-btn {
+	color: #ef4444 !important;
+	font-size: 1.2rem !important;
+	line-height: 1 !important;
+	cursor: pointer;
+	text-decoration: none !important;
+	padding: 0 4px !important;
+}
+
+.wpcttp-remove-tier-btn:hover {
+	color: #b91c1c !important;
+}
+
+/* Settings Panels */
+.wpcttp-settings-panel {
+	background: #ffffff;
+	padding: 1.5rem;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	max-width: 960px;
+}
+
+.wpcttp-card {
+	background: #f8fafc;
+	border: 1px solid #e2e8f0;
+	border-radius: 6px;
+	padding: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+
+.wpcttp-support-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 1.25rem;
+	margin-top: 1rem;
+}
+
+.wpcttp-support-card {
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+	border-radius: 6px;
+	padding: 1.25rem;
+	text-align: center;
+}
+
+.wpcttp-support-card h4 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.wpcttp-support-card a {
+	color: #2563eb;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.wpcttp-support-card a:hover {
+	text-decoration: underline;
+}
