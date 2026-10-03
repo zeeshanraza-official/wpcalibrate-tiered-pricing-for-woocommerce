@@ -9,7 +9,7 @@ package.ps1
 /vendor/
 node_modules/
 
-# IDE & Agents
+# IDE, AI & Agent Files
 .agents/
 .claude/
 .vscode/
@@ -17,6 +17,18 @@ node_modules/
 Thumbs.db
 Desktop.ini
 *.log
+CLAUDE.md
+PROJECT_MEMORY.md
+TROUBLESHOOTING.md
+CHANGELOG_AI.md
+TODO_AI.md
+IMPLEMENTATION_CHECKLIST.md
+AGENTS.md
+
+# Tests & Dev Configs
+tests/
+phpunit.xml*
 
 # Build & Archives
 *.zip
+wpcalibrate-tiered-pricing-for-woocommerce/
