@@ -3,7 +3,7 @@
  * Plugin Name:       WPCalibrate Tiered Pricing for WooCommerce
  * Plugin URI:        https://marketplace.wpcalibrate.com/
  * Description:       Server-authoritative quantity-based tiered pricing rules for WooCommerce products, variations, categories, and global cart items with live frontend updates and block compatibility.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.5
  * Tested up to:      7.1.2
  * Requires PHP:      8.2
@@ -24,7 +24,7 @@ declare(strict_types=1);
 defined( 'ABSPATH' ) || exit;
 
 // Plugin constants.
-define( 'WPCALIBRATE_TIERED_PRICING_VERSION', '1.0.0' );
+define( 'WPCALIBRATE_TIERED_PRICING_VERSION', '1.0.1' );
 define( 'WPCALIBRATE_TIERED_PRICING_FILE', __FILE__ );
 define( 'WPCALIBRATE_TIERED_PRICING_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WPCALIBRATE_TIERED_PRICING_URL', plugin_dir_url( __FILE__ ) );

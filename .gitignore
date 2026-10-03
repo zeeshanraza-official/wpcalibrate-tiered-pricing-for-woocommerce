@@ -3,6 +3,7 @@ ftp-config.json
 sync-ftp.ps1
 deploy.bat
 watch.bat
+package.ps1
 
 # Dependencies
 /vendor/
