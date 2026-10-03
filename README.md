@@ -98,7 +98,7 @@ When calculating prices, conflicts are resolved in strict, deterministic order:
 ### Installation
 
 #### Method 1: WordPress Dashboard Upload (Recommended)
-1. Download the latest `wpcalibrate-tiered-pricing-for-woocommerce-x.x.x.zip` from the [Releases](https://github.com/wpcalibrate/wpcalibrate-tiered-pricing-for-woocommerce/releases) page.
+1. Download the latest `wpcalibrate-tiered-pricing-for-woocommerce-x.x.x.zip` from the [Releases](https://github.com/zeeshanraza-official/wpcalibrate-tiered-pricing-for-woocommerce/releases) page.
 2. In your WordPress admin dashboard, navigate to **Plugins > Add New Plugin > Upload Plugin**.
 3. Choose the downloaded ZIP file and click **Install Now**.
 4. Click **Activate Plugin**.

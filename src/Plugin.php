@@ -97,7 +97,7 @@ final class Plugin {
 		$this->coupon_handler    = new CouponHandler();
 		$this->blocks_api        = new BlocksStoreApi();
 		$this->updater           = new GitHubUpdater(
-			'wpcalibrate',
+			'zeeshanraza-official',
 			'wpcalibrate-tiered-pricing-for-woocommerce',
 			WPCALIBRATE_TIERED_PRICING_FILE,
 			WPCALIBRATE_TIERED_PRICING_BASENAME,
