@@ -12,3 +12,6 @@
 - Automated FTP deployment pipeline (`sync-ftp.ps1`, `deploy.bat`, `watch.bat`).
 - Credential management with Git protection (`.gitignore`, `ftp-config.json`).
 - Core AI developer documentation: `CLAUDE.md`, `PROJECT_MEMORY.md`, `TROUBLESHOOTING.md`, `CHANGELOG_AI.md`, `TODO_AI.md`.
+- Public GitHub repository: `https://github.com/zeeshanraza-official/wpcalibrate-tiered-pricing-for-woocommerce`.
+- Integrated `GitHubUpdater` service for WordPress dashboard auto-updates and release information modals.
+- Clean packaging workflow producing production ZIP `wpcalibrate-tiered-pricing-for-woocommerce-1.0.1.zip` in parent directory.
